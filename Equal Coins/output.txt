@@ -1,0 +1,1421 @@
+Equal Coin Sample test 												flag
+----------------------------------------------------------------------------------
+	total Coins 	1rs Coins	2rs coins	total amount	1rs 	2rs 	amount 
+----------------------------------------------------------------------------------
+	1				0			1			2				even 	odd 	even		no
+					1			0			1				odd 	even 	odd			no
+----------------------------------------------------------------------------------
+	2				0			2			4				even 	even 	even		yes
+					1			1			3				odd 	odd 	odd			no
+					2			0			2				even 	even 	even		yes
+----------------------------------------------------------------------------------	
+	3				0			3			6				even 	odd 	even		no
+					1			2			5				odd 	even 	odd			no
+					2			1			4				even 	odd 	even		yes
+					3			0			3				odd 	even 	odd			no
+----------------------------------------------------------------------------------
+	4				0			4			8				even 	even 	even		yes
+					1			3			7				odd 	odd 	odd			no
+					2			2			6				even 	even 	even		yes
+					3			1			5				odd 	odd 	odd			no
+					4			0			4				even 	even 	even		yes
+----------------------------------------------------------------------------------
+	5				0			5			10				even 	odd 	even		no
+					1			4			9				odd 	even 	odd			no
+					2			3			8				even 	odd 	even		yes
+					3			2			7				odd 	even 	odd			no
+					4			1			6				even 	odd 	even		yes
+					5			0			5				odd 	even 	odd			no
+----------------------------------------------------------------------------------
+	6				0			6			12				even 	even 	even		yes
+					1			5			11				odd 	odd 	odd			no
+					2			4			10				even 	even 	even		yes
+					3			3			9				odd 	odd 	odd			no
+					4			2			8				even 	even 	even		yes
+					5			1			7				odd 	odd 	odd			no
+					6			0			6				even 	even 	even		yes
+----------------------------------------------------------------------------------
+	7				0			7			14				even 	odd 	even		no
+					1			6			13				odd 	even 	odd			no
+					2			5			12				even 	odd 	even		yes
+					3			4			11				odd 	even 	odd			no
+					4			3			10				even 	odd 	even		yes
+					5			2			9				odd 	even 	odd			no
+					6			1			8				even 	odd 	even		yes
+					7			0			7				odd 	even 	odd			no
+----------------------------------------------------------------------------------
+	8				0			8			16				even 	even 	even		yes
+					1			7			15				odd 	odd 	odd			no
+					2			6			14				even 	even 	even		yes
+					3			5			13				odd 	odd 	odd			
+					4			4			12				even 	even 	even
+					5			3			11				odd 	odd 	odd
+					6			2			10				even 	even 	even
+					7			1			9				odd 	odd 	odd
+					8			0			8				even 	even 	even
+----------------------------------------------------------------------------------
+
+	9				0			9			18				even 	odd 	even
+					1			8			17				odd 	even 	odd
+					2			7			16				even 	odd 	even
+					3			6			15				odd 	even 	odd
+					4			5			14				even 	odd 	even
+					5			4			13				odd 	even 	odd
+					6			3			12				even 	odd 	even
+					7			2			11				odd 	even 	odd
+					8			1			10				even 	odd 	even
+					9			0			9				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	10				0			10			20				even 	even 	even
+					1			9			19				odd 	odd 	odd
+					2			8			18				even 	even 	even
+					3			7			17				odd 	odd 	odd
+					4			6			16				even 	even 	even
+					5			5			15				odd 	odd 	odd
+					6			4			14				even 	even 	even
+					7			3			13				odd 	odd 	odd
+					8			2			12				even 	even 	even
+					9			1			11				odd 	odd 	odd
+					10			0			10				even 	even 	even
+----------------------------------------------------------------------------------
+
+	11				0			11			22				even 	odd 	even
+					1			10			21				odd 	even 	odd
+					2			9			20				even 	odd 	even
+					3			8			19				odd 	even 	odd
+					4			7			18				even 	odd 	even
+					5			6			17				odd 	even 	odd
+					6			5			16				even 	odd 	even
+					7			4			15				odd 	even 	odd
+					8			3			14				even 	odd 	even
+					9			2			13				odd 	even 	odd
+					10			1			12				even 	odd 	even
+					11			0			11				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	12				0			12			24				even 	even 	even
+					1			11			23				odd 	odd 	odd
+					2			10			22				even 	even 	even
+					3			9			21				odd 	odd 	odd
+					4			8			20				even 	even 	even
+					5			7			19				odd 	odd 	odd
+					6			6			18				even 	even 	even
+					7			5			17				odd 	odd 	odd
+					8			4			16				even 	even 	even
+					9			3			15				odd 	odd 	odd
+					10			2			14				even 	even 	even
+					11			1			13				odd 	odd 	odd
+					12			0			12				even 	even 	even
+----------------------------------------------------------------------------------
+
+	13				0			13			26				even 	odd 	even
+					1			12			25				odd 	even 	odd
+					2			11			24				even 	odd 	even
+					3			10			23				odd 	even 	odd
+					4			9			22				even 	odd 	even
+					5			8			21				odd 	even 	odd
+					6			7			20				even 	odd 	even
+					7			6			19				odd 	even 	odd
+					8			5			18				even 	odd 	even
+					9			4			17				odd 	even 	odd
+					10			3			16				even 	odd 	even
+					11			2			15				odd 	even 	odd
+					12			1			14				even 	odd 	even
+					13			0			13				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	14				0			14			28				even 	even 	even
+					1			13			27				odd 	odd 	odd
+					2			12			26				even 	even 	even
+					3			11			25				odd 	odd 	odd
+					4			10			24				even 	even 	even
+					5			9			23				odd 	odd 	odd
+					6			8			22				even 	even 	even
+					7			7			21				odd 	odd 	odd
+					8			6			20				even 	even 	even
+					9			5			19				odd 	odd 	odd
+					10			4			18				even 	even 	even
+					11			3			17				odd 	odd 	odd
+					12			2			16				even 	even 	even
+					13			1			15				odd 	odd 	odd
+					14			0			14				even 	even 	even
+----------------------------------------------------------------------------------
+
+	15				0			15			30				even 	odd 	even
+					1			14			29				odd 	even 	odd
+					2			13			28				even 	odd 	even
+					3			12			27				odd 	even 	odd
+					4			11			26				even 	odd 	even
+					5			10			25				odd 	even 	odd
+					6			9			24				even 	odd 	even
+					7			8			23				odd 	even 	odd
+					8			7			22				even 	odd 	even
+					9			6			21				odd 	even 	odd
+					10			5			20				even 	odd 	even
+					11			4			19				odd 	even 	odd
+					12			3			18				even 	odd 	even
+					13			2			17				odd 	even 	odd
+					14			1			16				even 	odd 	even
+					15			0			15				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	16				0			16			32				even 	even 	even
+					1			15			31				odd 	odd 	odd
+					2			14			30				even 	even 	even
+					3			13			29				odd 	odd 	odd
+					4			12			28				even 	even 	even
+					5			11			27				odd 	odd 	odd
+					6			10			26				even 	even 	even
+					7			9			25				odd 	odd 	odd
+					8			8			24				even 	even 	even
+					9			7			23				odd 	odd 	odd
+					10			6			22				even 	even 	even
+					11			5			21				odd 	odd 	odd
+					12			4			20				even 	even 	even
+					13			3			19				odd 	odd 	odd
+					14			2			18				even 	even 	even
+					15			1			17				odd 	odd 	odd
+					16			0			16				even 	even 	even
+----------------------------------------------------------------------------------
+
+	17				0			17			34				even 	odd 	even
+					1			16			33				odd 	even 	odd
+					2			15			32				even 	odd 	even
+					3			14			31				odd 	even 	odd
+					4			13			30				even 	odd 	even
+					5			12			29				odd 	even 	odd
+					6			11			28				even 	odd 	even
+					7			10			27				odd 	even 	odd
+					8			9			26				even 	odd 	even
+					9			8			25				odd 	even 	odd
+					10			7			24				even 	odd 	even
+					11			6			23				odd 	even 	odd
+					12			5			22				even 	odd 	even
+					13			4			21				odd 	even 	odd
+					14			3			20				even 	odd 	even
+					15			2			19				odd 	even 	odd
+					16			1			18				even 	odd 	even
+					17			0			17				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	18				0			18			36				even 	even 	even
+					1			17			35				odd 	odd 	odd
+					2			16			34				even 	even 	even
+					3			15			33				odd 	odd 	odd
+					4			14			32				even 	even 	even
+					5			13			31				odd 	odd 	odd
+					6			12			30				even 	even 	even
+					7			11			29				odd 	odd 	odd
+					8			10			28				even 	even 	even
+					9			9			27				odd 	odd 	odd
+					10			8			26				even 	even 	even
+					11			7			25				odd 	odd 	odd
+					12			6			24				even 	even 	even
+					13			5			23				odd 	odd 	odd
+					14			4			22				even 	even 	even
+					15			3			21				odd 	odd 	odd
+					16			2			20				even 	even 	even
+					17			1			19				odd 	odd 	odd
+					18			0			18				even 	even 	even
+----------------------------------------------------------------------------------
+
+	19				0			19			38				even 	odd 	even
+					1			18			37				odd 	even 	odd
+					2			17			36				even 	odd 	even
+					3			16			35				odd 	even 	odd
+					4			15			34				even 	odd 	even
+					5			14			33				odd 	even 	odd
+					6			13			32				even 	odd 	even
+					7			12			31				odd 	even 	odd
+					8			11			30				even 	odd 	even
+					9			10			29				odd 	even 	odd
+					10			9			28				even 	odd 	even
+					11			8			27				odd 	even 	odd
+					12			7			26				even 	odd 	even
+					13			6			25				odd 	even 	odd
+					14			5			24				even 	odd 	even
+					15			4			23				odd 	even 	odd
+					16			3			22				even 	odd 	even
+					17			2			21				odd 	even 	odd
+					18			1			20				even 	odd 	even
+					19			0			19				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	20				0			20			40				even 	even 	even
+					1			19			39				odd 	odd 	odd
+					2			18			38				even 	even 	even
+					3			17			37				odd 	odd 	odd
+					4			16			36				even 	even 	even
+					5			15			35				odd 	odd 	odd
+					6			14			34				even 	even 	even
+					7			13			33				odd 	odd 	odd
+					8			12			32				even 	even 	even
+					9			11			31				odd 	odd 	odd
+					10			10			30				even 	even 	even
+					11			9			29				odd 	odd 	odd
+					12			8			28				even 	even 	even
+					13			7			27				odd 	odd 	odd
+					14			6			26				even 	even 	even
+					15			5			25				odd 	odd 	odd
+					16			4			24				even 	even 	even
+					17			3			23				odd 	odd 	odd
+					18			2			22				even 	even 	even
+					19			1			21				odd 	odd 	odd
+					20			0			20				even 	even 	even
+----------------------------------------------------------------------------------
+
+	21				0			21			42				even 	odd 	even
+					1			20			41				odd 	even 	odd
+					2			19			40				even 	odd 	even
+					3			18			39				odd 	even 	odd
+					4			17			38				even 	odd 	even
+					5			16			37				odd 	even 	odd
+					6			15			36				even 	odd 	even
+					7			14			35				odd 	even 	odd
+					8			13			34				even 	odd 	even
+					9			12			33				odd 	even 	odd
+					10			11			32				even 	odd 	even
+					11			10			31				odd 	even 	odd
+					12			9			30				even 	odd 	even
+					13			8			29				odd 	even 	odd
+					14			7			28				even 	odd 	even
+					15			6			27				odd 	even 	odd
+					16			5			26				even 	odd 	even
+					17			4			25				odd 	even 	odd
+					18			3			24				even 	odd 	even
+					19			2			23				odd 	even 	odd
+					20			1			22				even 	odd 	even
+					21			0			21				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	22				0			22			44				even 	even 	even
+					1			21			43				odd 	odd 	odd
+					2			20			42				even 	even 	even
+					3			19			41				odd 	odd 	odd
+					4			18			40				even 	even 	even
+					5			17			39				odd 	odd 	odd
+					6			16			38				even 	even 	even
+					7			15			37				odd 	odd 	odd
+					8			14			36				even 	even 	even
+					9			13			35				odd 	odd 	odd
+					10			12			34				even 	even 	even
+					11			11			33				odd 	odd 	odd
+					12			10			32				even 	even 	even
+					13			9			31				odd 	odd 	odd
+					14			8			30				even 	even 	even
+					15			7			29				odd 	odd 	odd
+					16			6			28				even 	even 	even
+					17			5			27				odd 	odd 	odd
+					18			4			26				even 	even 	even
+					19			3			25				odd 	odd 	odd
+					20			2			24				even 	even 	even
+					21			1			23				odd 	odd 	odd
+					22			0			22				even 	even 	even
+----------------------------------------------------------------------------------
+
+	23				0			23			46				even 	odd 	even
+					1			22			45				odd 	even 	odd
+					2			21			44				even 	odd 	even
+					3			20			43				odd 	even 	odd
+					4			19			42				even 	odd 	even
+					5			18			41				odd 	even 	odd
+					6			17			40				even 	odd 	even
+					7			16			39				odd 	even 	odd
+					8			15			38				even 	odd 	even
+					9			14			37				odd 	even 	odd
+					10			13			36				even 	odd 	even
+					11			12			35				odd 	even 	odd
+					12			11			34				even 	odd 	even
+					13			10			33				odd 	even 	odd
+					14			9			32				even 	odd 	even
+					15			8			31				odd 	even 	odd
+					16			7			30				even 	odd 	even
+					17			6			29				odd 	even 	odd
+					18			5			28				even 	odd 	even
+					19			4			27				odd 	even 	odd
+					20			3			26				even 	odd 	even
+					21			2			25				odd 	even 	odd
+					22			1			24				even 	odd 	even
+					23			0			23				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	24				0			24			48				even 	even 	even
+					1			23			47				odd 	odd 	odd
+					2			22			46				even 	even 	even
+					3			21			45				odd 	odd 	odd
+					4			20			44				even 	even 	even
+					5			19			43				odd 	odd 	odd
+					6			18			42				even 	even 	even
+					7			17			41				odd 	odd 	odd
+					8			16			40				even 	even 	even
+					9			15			39				odd 	odd 	odd
+					10			14			38				even 	even 	even
+					11			13			37				odd 	odd 	odd
+					12			12			36				even 	even 	even
+					13			11			35				odd 	odd 	odd
+					14			10			34				even 	even 	even
+					15			9			33				odd 	odd 	odd
+					16			8			32				even 	even 	even
+					17			7			31				odd 	odd 	odd
+					18			6			30				even 	even 	even
+					19			5			29				odd 	odd 	odd
+					20			4			28				even 	even 	even
+					21			3			27				odd 	odd 	odd
+					22			2			26				even 	even 	even
+					23			1			25				odd 	odd 	odd
+					24			0			24				even 	even 	even
+----------------------------------------------------------------------------------
+
+	25				0			25			50				even 	odd 	even
+					1			24			49				odd 	even 	odd
+					2			23			48				even 	odd 	even
+					3			22			47				odd 	even 	odd
+					4			21			46				even 	odd 	even
+					5			20			45				odd 	even 	odd
+					6			19			44				even 	odd 	even
+					7			18			43				odd 	even 	odd
+					8			17			42				even 	odd 	even
+					9			16			41				odd 	even 	odd
+					10			15			40				even 	odd 	even
+					11			14			39				odd 	even 	odd
+					12			13			38				even 	odd 	even
+					13			12			37				odd 	even 	odd
+					14			11			36				even 	odd 	even
+					15			10			35				odd 	even 	odd
+					16			9			34				even 	odd 	even
+					17			8			33				odd 	even 	odd
+					18			7			32				even 	odd 	even
+					19			6			31				odd 	even 	odd
+					20			5			30				even 	odd 	even
+					21			4			29				odd 	even 	odd
+					22			3			28				even 	odd 	even
+					23			2			27				odd 	even 	odd
+					24			1			26				even 	odd 	even
+					25			0			25				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	26				0			26			52				even 	even 	even
+					1			25			51				odd 	odd 	odd
+					2			24			50				even 	even 	even
+					3			23			49				odd 	odd 	odd
+					4			22			48				even 	even 	even
+					5			21			47				odd 	odd 	odd
+					6			20			46				even 	even 	even
+					7			19			45				odd 	odd 	odd
+					8			18			44				even 	even 	even
+					9			17			43				odd 	odd 	odd
+					10			16			42				even 	even 	even
+					11			15			41				odd 	odd 	odd
+					12			14			40				even 	even 	even
+					13			13			39				odd 	odd 	odd
+					14			12			38				even 	even 	even
+					15			11			37				odd 	odd 	odd
+					16			10			36				even 	even 	even
+					17			9			35				odd 	odd 	odd
+					18			8			34				even 	even 	even
+					19			7			33				odd 	odd 	odd
+					20			6			32				even 	even 	even
+					21			5			31				odd 	odd 	odd
+					22			4			30				even 	even 	even
+					23			3			29				odd 	odd 	odd
+					24			2			28				even 	even 	even
+					25			1			27				odd 	odd 	odd
+					26			0			26				even 	even 	even
+----------------------------------------------------------------------------------
+
+	27				0			27			54				even 	odd 	even
+					1			26			53				odd 	even 	odd
+					2			25			52				even 	odd 	even
+					3			24			51				odd 	even 	odd
+					4			23			50				even 	odd 	even
+					5			22			49				odd 	even 	odd
+					6			21			48				even 	odd 	even
+					7			20			47				odd 	even 	odd
+					8			19			46				even 	odd 	even
+					9			18			45				odd 	even 	odd
+					10			17			44				even 	odd 	even
+					11			16			43				odd 	even 	odd
+					12			15			42				even 	odd 	even
+					13			14			41				odd 	even 	odd
+					14			13			40				even 	odd 	even
+					15			12			39				odd 	even 	odd
+					16			11			38				even 	odd 	even
+					17			10			37				odd 	even 	odd
+					18			9			36				even 	odd 	even
+					19			8			35				odd 	even 	odd
+					20			7			34				even 	odd 	even
+					21			6			33				odd 	even 	odd
+					22			5			32				even 	odd 	even
+					23			4			31				odd 	even 	odd
+					24			3			30				even 	odd 	even
+					25			2			29				odd 	even 	odd
+					26			1			28				even 	odd 	even
+					27			0			27				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	28				0			28			56				even 	even 	even
+					1			27			55				odd 	odd 	odd
+					2			26			54				even 	even 	even
+					3			25			53				odd 	odd 	odd
+					4			24			52				even 	even 	even
+					5			23			51				odd 	odd 	odd
+					6			22			50				even 	even 	even
+					7			21			49				odd 	odd 	odd
+					8			20			48				even 	even 	even
+					9			19			47				odd 	odd 	odd
+					10			18			46				even 	even 	even
+					11			17			45				odd 	odd 	odd
+					12			16			44				even 	even 	even
+					13			15			43				odd 	odd 	odd
+					14			14			42				even 	even 	even
+					15			13			41				odd 	odd 	odd
+					16			12			40				even 	even 	even
+					17			11			39				odd 	odd 	odd
+					18			10			38				even 	even 	even
+					19			9			37				odd 	odd 	odd
+					20			8			36				even 	even 	even
+					21			7			35				odd 	odd 	odd
+					22			6			34				even 	even 	even
+					23			5			33				odd 	odd 	odd
+					24			4			32				even 	even 	even
+					25			3			31				odd 	odd 	odd
+					26			2			30				even 	even 	even
+					27			1			29				odd 	odd 	odd
+					28			0			28				even 	even 	even
+----------------------------------------------------------------------------------
+
+	29				0			29			58				even 	odd 	even
+					1			28			57				odd 	even 	odd
+					2			27			56				even 	odd 	even
+					3			26			55				odd 	even 	odd
+					4			25			54				even 	odd 	even
+					5			24			53				odd 	even 	odd
+					6			23			52				even 	odd 	even
+					7			22			51				odd 	even 	odd
+					8			21			50				even 	odd 	even
+					9			20			49				odd 	even 	odd
+					10			19			48				even 	odd 	even
+					11			18			47				odd 	even 	odd
+					12			17			46				even 	odd 	even
+					13			16			45				odd 	even 	odd
+					14			15			44				even 	odd 	even
+					15			14			43				odd 	even 	odd
+					16			13			42				even 	odd 	even
+					17			12			41				odd 	even 	odd
+					18			11			40				even 	odd 	even
+					19			10			39				odd 	even 	odd
+					20			9			38				even 	odd 	even
+					21			8			37				odd 	even 	odd
+					22			7			36				even 	odd 	even
+					23			6			35				odd 	even 	odd
+					24			5			34				even 	odd 	even
+					25			4			33				odd 	even 	odd
+					26			3			32				even 	odd 	even
+					27			2			31				odd 	even 	odd
+					28			1			30				even 	odd 	even
+					29			0			29				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	30				0			30			60				even 	even 	even
+					1			29			59				odd 	odd 	odd
+					2			28			58				even 	even 	even
+					3			27			57				odd 	odd 	odd
+					4			26			56				even 	even 	even
+					5			25			55				odd 	odd 	odd
+					6			24			54				even 	even 	even
+					7			23			53				odd 	odd 	odd
+					8			22			52				even 	even 	even
+					9			21			51				odd 	odd 	odd
+					10			20			50				even 	even 	even
+					11			19			49				odd 	odd 	odd
+					12			18			48				even 	even 	even
+					13			17			47				odd 	odd 	odd
+					14			16			46				even 	even 	even
+					15			15			45				odd 	odd 	odd
+					16			14			44				even 	even 	even
+					17			13			43				odd 	odd 	odd
+					18			12			42				even 	even 	even
+					19			11			41				odd 	odd 	odd
+					20			10			40				even 	even 	even
+					21			9			39				odd 	odd 	odd
+					22			8			38				even 	even 	even
+					23			7			37				odd 	odd 	odd
+					24			6			36				even 	even 	even
+					25			5			35				odd 	odd 	odd
+					26			4			34				even 	even 	even
+					27			3			33				odd 	odd 	odd
+					28			2			32				even 	even 	even
+					29			1			31				odd 	odd 	odd
+					30			0			30				even 	even 	even
+----------------------------------------------------------------------------------
+
+	31				0			31			62				even 	odd 	even
+					1			30			61				odd 	even 	odd
+					2			29			60				even 	odd 	even
+					3			28			59				odd 	even 	odd
+					4			27			58				even 	odd 	even
+					5			26			57				odd 	even 	odd
+					6			25			56				even 	odd 	even
+					7			24			55				odd 	even 	odd
+					8			23			54				even 	odd 	even
+					9			22			53				odd 	even 	odd
+					10			21			52				even 	odd 	even
+					11			20			51				odd 	even 	odd
+					12			19			50				even 	odd 	even
+					13			18			49				odd 	even 	odd
+					14			17			48				even 	odd 	even
+					15			16			47				odd 	even 	odd
+					16			15			46				even 	odd 	even
+					17			14			45				odd 	even 	odd
+					18			13			44				even 	odd 	even
+					19			12			43				odd 	even 	odd
+					20			11			42				even 	odd 	even
+					21			10			41				odd 	even 	odd
+					22			9			40				even 	odd 	even
+					23			8			39				odd 	even 	odd
+					24			7			38				even 	odd 	even
+					25			6			37				odd 	even 	odd
+					26			5			36				even 	odd 	even
+					27			4			35				odd 	even 	odd
+					28			3			34				even 	odd 	even
+					29			2			33				odd 	even 	odd
+					30			1			32				even 	odd 	even
+					31			0			31				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	32				0			32			64				even 	even 	even
+					1			31			63				odd 	odd 	odd
+					2			30			62				even 	even 	even
+					3			29			61				odd 	odd 	odd
+					4			28			60				even 	even 	even
+					5			27			59				odd 	odd 	odd
+					6			26			58				even 	even 	even
+					7			25			57				odd 	odd 	odd
+					8			24			56				even 	even 	even
+					9			23			55				odd 	odd 	odd
+					10			22			54				even 	even 	even
+					11			21			53				odd 	odd 	odd
+					12			20			52				even 	even 	even
+					13			19			51				odd 	odd 	odd
+					14			18			50				even 	even 	even
+					15			17			49				odd 	odd 	odd
+					16			16			48				even 	even 	even
+					17			15			47				odd 	odd 	odd
+					18			14			46				even 	even 	even
+					19			13			45				odd 	odd 	odd
+					20			12			44				even 	even 	even
+					21			11			43				odd 	odd 	odd
+					22			10			42				even 	even 	even
+					23			9			41				odd 	odd 	odd
+					24			8			40				even 	even 	even
+					25			7			39				odd 	odd 	odd
+					26			6			38				even 	even 	even
+					27			5			37				odd 	odd 	odd
+					28			4			36				even 	even 	even
+					29			3			35				odd 	odd 	odd
+					30			2			34				even 	even 	even
+					31			1			33				odd 	odd 	odd
+					32			0			32				even 	even 	even
+----------------------------------------------------------------------------------
+
+	33				0			33			66				even 	odd 	even
+					1			32			65				odd 	even 	odd
+					2			31			64				even 	odd 	even
+					3			30			63				odd 	even 	odd
+					4			29			62				even 	odd 	even
+					5			28			61				odd 	even 	odd
+					6			27			60				even 	odd 	even
+					7			26			59				odd 	even 	odd
+					8			25			58				even 	odd 	even
+					9			24			57				odd 	even 	odd
+					10			23			56				even 	odd 	even
+					11			22			55				odd 	even 	odd
+					12			21			54				even 	odd 	even
+					13			20			53				odd 	even 	odd
+					14			19			52				even 	odd 	even
+					15			18			51				odd 	even 	odd
+					16			17			50				even 	odd 	even
+					17			16			49				odd 	even 	odd
+					18			15			48				even 	odd 	even
+					19			14			47				odd 	even 	odd
+					20			13			46				even 	odd 	even
+					21			12			45				odd 	even 	odd
+					22			11			44				even 	odd 	even
+					23			10			43				odd 	even 	odd
+					24			9			42				even 	odd 	even
+					25			8			41				odd 	even 	odd
+					26			7			40				even 	odd 	even
+					27			6			39				odd 	even 	odd
+					28			5			38				even 	odd 	even
+					29			4			37				odd 	even 	odd
+					30			3			36				even 	odd 	even
+					31			2			35				odd 	even 	odd
+					32			1			34				even 	odd 	even
+					33			0			33				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	34				0			34			68				even 	even 	even
+					1			33			67				odd 	odd 	odd
+					2			32			66				even 	even 	even
+					3			31			65				odd 	odd 	odd
+					4			30			64				even 	even 	even
+					5			29			63				odd 	odd 	odd
+					6			28			62				even 	even 	even
+					7			27			61				odd 	odd 	odd
+					8			26			60				even 	even 	even
+					9			25			59				odd 	odd 	odd
+					10			24			58				even 	even 	even
+					11			23			57				odd 	odd 	odd
+					12			22			56				even 	even 	even
+					13			21			55				odd 	odd 	odd
+					14			20			54				even 	even 	even
+					15			19			53				odd 	odd 	odd
+					16			18			52				even 	even 	even
+					17			17			51				odd 	odd 	odd
+					18			16			50				even 	even 	even
+					19			15			49				odd 	odd 	odd
+					20			14			48				even 	even 	even
+					21			13			47				odd 	odd 	odd
+					22			12			46				even 	even 	even
+					23			11			45				odd 	odd 	odd
+					24			10			44				even 	even 	even
+					25			9			43				odd 	odd 	odd
+					26			8			42				even 	even 	even
+					27			7			41				odd 	odd 	odd
+					28			6			40				even 	even 	even
+					29			5			39				odd 	odd 	odd
+					30			4			38				even 	even 	even
+					31			3			37				odd 	odd 	odd
+					32			2			36				even 	even 	even
+					33			1			35				odd 	odd 	odd
+					34			0			34				even 	even 	even
+----------------------------------------------------------------------------------
+
+	35				0			35			70				even 	odd 	even
+					1			34			69				odd 	even 	odd
+					2			33			68				even 	odd 	even
+					3			32			67				odd 	even 	odd
+					4			31			66				even 	odd 	even
+					5			30			65				odd 	even 	odd
+					6			29			64				even 	odd 	even
+					7			28			63				odd 	even 	odd
+					8			27			62				even 	odd 	even
+					9			26			61				odd 	even 	odd
+					10			25			60				even 	odd 	even
+					11			24			59				odd 	even 	odd
+					12			23			58				even 	odd 	even
+					13			22			57				odd 	even 	odd
+					14			21			56				even 	odd 	even
+					15			20			55				odd 	even 	odd
+					16			19			54				even 	odd 	even
+					17			18			53				odd 	even 	odd
+					18			17			52				even 	odd 	even
+					19			16			51				odd 	even 	odd
+					20			15			50				even 	odd 	even
+					21			14			49				odd 	even 	odd
+					22			13			48				even 	odd 	even
+					23			12			47				odd 	even 	odd
+					24			11			46				even 	odd 	even
+					25			10			45				odd 	even 	odd
+					26			9			44				even 	odd 	even
+					27			8			43				odd 	even 	odd
+					28			7			42				even 	odd 	even
+					29			6			41				odd 	even 	odd
+					30			5			40				even 	odd 	even
+					31			4			39				odd 	even 	odd
+					32			3			38				even 	odd 	even
+					33			2			37				odd 	even 	odd
+					34			1			36				even 	odd 	even
+					35			0			35				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	36				0			36			72				even 	even 	even
+					1			35			71				odd 	odd 	odd
+					2			34			70				even 	even 	even
+					3			33			69				odd 	odd 	odd
+					4			32			68				even 	even 	even
+					5			31			67				odd 	odd 	odd
+					6			30			66				even 	even 	even
+					7			29			65				odd 	odd 	odd
+					8			28			64				even 	even 	even
+					9			27			63				odd 	odd 	odd
+					10			26			62				even 	even 	even
+					11			25			61				odd 	odd 	odd
+					12			24			60				even 	even 	even
+					13			23			59				odd 	odd 	odd
+					14			22			58				even 	even 	even
+					15			21			57				odd 	odd 	odd
+					16			20			56				even 	even 	even
+					17			19			55				odd 	odd 	odd
+					18			18			54				even 	even 	even
+					19			17			53				odd 	odd 	odd
+					20			16			52				even 	even 	even
+					21			15			51				odd 	odd 	odd
+					22			14			50				even 	even 	even
+					23			13			49				odd 	odd 	odd
+					24			12			48				even 	even 	even
+					25			11			47				odd 	odd 	odd
+					26			10			46				even 	even 	even
+					27			9			45				odd 	odd 	odd
+					28			8			44				even 	even 	even
+					29			7			43				odd 	odd 	odd
+					30			6			42				even 	even 	even
+					31			5			41				odd 	odd 	odd
+					32			4			40				even 	even 	even
+					33			3			39				odd 	odd 	odd
+					34			2			38				even 	even 	even
+					35			1			37				odd 	odd 	odd
+					36			0			36				even 	even 	even
+----------------------------------------------------------------------------------
+
+	37				0			37			74				even 	odd 	even
+					1			36			73				odd 	even 	odd
+					2			35			72				even 	odd 	even
+					3			34			71				odd 	even 	odd
+					4			33			70				even 	odd 	even
+					5			32			69				odd 	even 	odd
+					6			31			68				even 	odd 	even
+					7			30			67				odd 	even 	odd
+					8			29			66				even 	odd 	even
+					9			28			65				odd 	even 	odd
+					10			27			64				even 	odd 	even
+					11			26			63				odd 	even 	odd
+					12			25			62				even 	odd 	even
+					13			24			61				odd 	even 	odd
+					14			23			60				even 	odd 	even
+					15			22			59				odd 	even 	odd
+					16			21			58				even 	odd 	even
+					17			20			57				odd 	even 	odd
+					18			19			56				even 	odd 	even
+					19			18			55				odd 	even 	odd
+					20			17			54				even 	odd 	even
+					21			16			53				odd 	even 	odd
+					22			15			52				even 	odd 	even
+					23			14			51				odd 	even 	odd
+					24			13			50				even 	odd 	even
+					25			12			49				odd 	even 	odd
+					26			11			48				even 	odd 	even
+					27			10			47				odd 	even 	odd
+					28			9			46				even 	odd 	even
+					29			8			45				odd 	even 	odd
+					30			7			44				even 	odd 	even
+					31			6			43				odd 	even 	odd
+					32			5			42				even 	odd 	even
+					33			4			41				odd 	even 	odd
+					34			3			40				even 	odd 	even
+					35			2			39				odd 	even 	odd
+					36			1			38				even 	odd 	even
+					37			0			37				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	38				0			38			76				even 	even 	even
+					1			37			75				odd 	odd 	odd
+					2			36			74				even 	even 	even
+					3			35			73				odd 	odd 	odd
+					4			34			72				even 	even 	even
+					5			33			71				odd 	odd 	odd
+					6			32			70				even 	even 	even
+					7			31			69				odd 	odd 	odd
+					8			30			68				even 	even 	even
+					9			29			67				odd 	odd 	odd
+					10			28			66				even 	even 	even
+					11			27			65				odd 	odd 	odd
+					12			26			64				even 	even 	even
+					13			25			63				odd 	odd 	odd
+					14			24			62				even 	even 	even
+					15			23			61				odd 	odd 	odd
+					16			22			60				even 	even 	even
+					17			21			59				odd 	odd 	odd
+					18			20			58				even 	even 	even
+					19			19			57				odd 	odd 	odd
+					20			18			56				even 	even 	even
+					21			17			55				odd 	odd 	odd
+					22			16			54				even 	even 	even
+					23			15			53				odd 	odd 	odd
+					24			14			52				even 	even 	even
+					25			13			51				odd 	odd 	odd
+					26			12			50				even 	even 	even
+					27			11			49				odd 	odd 	odd
+					28			10			48				even 	even 	even
+					29			9			47				odd 	odd 	odd
+					30			8			46				even 	even 	even
+					31			7			45				odd 	odd 	odd
+					32			6			44				even 	even 	even
+					33			5			43				odd 	odd 	odd
+					34			4			42				even 	even 	even
+					35			3			41				odd 	odd 	odd
+					36			2			40				even 	even 	even
+					37			1			39				odd 	odd 	odd
+					38			0			38				even 	even 	even
+----------------------------------------------------------------------------------
+
+	39				0			39			78				even 	odd 	even
+					1			38			77				odd 	even 	odd
+					2			37			76				even 	odd 	even
+					3			36			75				odd 	even 	odd
+					4			35			74				even 	odd 	even
+					5			34			73				odd 	even 	odd
+					6			33			72				even 	odd 	even
+					7			32			71				odd 	even 	odd
+					8			31			70				even 	odd 	even
+					9			30			69				odd 	even 	odd
+					10			29			68				even 	odd 	even
+					11			28			67				odd 	even 	odd
+					12			27			66				even 	odd 	even
+					13			26			65				odd 	even 	odd
+					14			25			64				even 	odd 	even
+					15			24			63				odd 	even 	odd
+					16			23			62				even 	odd 	even
+					17			22			61				odd 	even 	odd
+					18			21			60				even 	odd 	even
+					19			20			59				odd 	even 	odd
+					20			19			58				even 	odd 	even
+					21			18			57				odd 	even 	odd
+					22			17			56				even 	odd 	even
+					23			16			55				odd 	even 	odd
+					24			15			54				even 	odd 	even
+					25			14			53				odd 	even 	odd
+					26			13			52				even 	odd 	even
+					27			12			51				odd 	even 	odd
+					28			11			50				even 	odd 	even
+					29			10			49				odd 	even 	odd
+					30			9			48				even 	odd 	even
+					31			8			47				odd 	even 	odd
+					32			7			46				even 	odd 	even
+					33			6			45				odd 	even 	odd
+					34			5			44				even 	odd 	even
+					35			4			43				odd 	even 	odd
+					36			3			42				even 	odd 	even
+					37			2			41				odd 	even 	odd
+					38			1			40				even 	odd 	even
+					39			0			39				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	40				0			40			80				even 	even 	even
+					1			39			79				odd 	odd 	odd
+					2			38			78				even 	even 	even
+					3			37			77				odd 	odd 	odd
+					4			36			76				even 	even 	even
+					5			35			75				odd 	odd 	odd
+					6			34			74				even 	even 	even
+					7			33			73				odd 	odd 	odd
+					8			32			72				even 	even 	even
+					9			31			71				odd 	odd 	odd
+					10			30			70				even 	even 	even
+					11			29			69				odd 	odd 	odd
+					12			28			68				even 	even 	even
+					13			27			67				odd 	odd 	odd
+					14			26			66				even 	even 	even
+					15			25			65				odd 	odd 	odd
+					16			24			64				even 	even 	even
+					17			23			63				odd 	odd 	odd
+					18			22			62				even 	even 	even
+					19			21			61				odd 	odd 	odd
+					20			20			60				even 	even 	even
+					21			19			59				odd 	odd 	odd
+					22			18			58				even 	even 	even
+					23			17			57				odd 	odd 	odd
+					24			16			56				even 	even 	even
+					25			15			55				odd 	odd 	odd
+					26			14			54				even 	even 	even
+					27			13			53				odd 	odd 	odd
+					28			12			52				even 	even 	even
+					29			11			51				odd 	odd 	odd
+					30			10			50				even 	even 	even
+					31			9			49				odd 	odd 	odd
+					32			8			48				even 	even 	even
+					33			7			47				odd 	odd 	odd
+					34			6			46				even 	even 	even
+					35			5			45				odd 	odd 	odd
+					36			4			44				even 	even 	even
+					37			3			43				odd 	odd 	odd
+					38			2			42				even 	even 	even
+					39			1			41				odd 	odd 	odd
+					40			0			40				even 	even 	even
+----------------------------------------------------------------------------------
+
+	41				0			41			82				even 	odd 	even
+					1			40			81				odd 	even 	odd
+					2			39			80				even 	odd 	even
+					3			38			79				odd 	even 	odd
+					4			37			78				even 	odd 	even
+					5			36			77				odd 	even 	odd
+					6			35			76				even 	odd 	even
+					7			34			75				odd 	even 	odd
+					8			33			74				even 	odd 	even
+					9			32			73				odd 	even 	odd
+					10			31			72				even 	odd 	even
+					11			30			71				odd 	even 	odd
+					12			29			70				even 	odd 	even
+					13			28			69				odd 	even 	odd
+					14			27			68				even 	odd 	even
+					15			26			67				odd 	even 	odd
+					16			25			66				even 	odd 	even
+					17			24			65				odd 	even 	odd
+					18			23			64				even 	odd 	even
+					19			22			63				odd 	even 	odd
+					20			21			62				even 	odd 	even
+					21			20			61				odd 	even 	odd
+					22			19			60				even 	odd 	even
+					23			18			59				odd 	even 	odd
+					24			17			58				even 	odd 	even
+					25			16			57				odd 	even 	odd
+					26			15			56				even 	odd 	even
+					27			14			55				odd 	even 	odd
+					28			13			54				even 	odd 	even
+					29			12			53				odd 	even 	odd
+					30			11			52				even 	odd 	even
+					31			10			51				odd 	even 	odd
+					32			9			50				even 	odd 	even
+					33			8			49				odd 	even 	odd
+					34			7			48				even 	odd 	even
+					35			6			47				odd 	even 	odd
+					36			5			46				even 	odd 	even
+					37			4			45				odd 	even 	odd
+					38			3			44				even 	odd 	even
+					39			2			43				odd 	even 	odd
+					40			1			42				even 	odd 	even
+					41			0			41				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	42				0			42			84				even 	even 	even
+					1			41			83				odd 	odd 	odd
+					2			40			82				even 	even 	even
+					3			39			81				odd 	odd 	odd
+					4			38			80				even 	even 	even
+					5			37			79				odd 	odd 	odd
+					6			36			78				even 	even 	even
+					7			35			77				odd 	odd 	odd
+					8			34			76				even 	even 	even
+					9			33			75				odd 	odd 	odd
+					10			32			74				even 	even 	even
+					11			31			73				odd 	odd 	odd
+					12			30			72				even 	even 	even
+					13			29			71				odd 	odd 	odd
+					14			28			70				even 	even 	even
+					15			27			69				odd 	odd 	odd
+					16			26			68				even 	even 	even
+					17			25			67				odd 	odd 	odd
+					18			24			66				even 	even 	even
+					19			23			65				odd 	odd 	odd
+					20			22			64				even 	even 	even
+					21			21			63				odd 	odd 	odd
+					22			20			62				even 	even 	even
+					23			19			61				odd 	odd 	odd
+					24			18			60				even 	even 	even
+					25			17			59				odd 	odd 	odd
+					26			16			58				even 	even 	even
+					27			15			57				odd 	odd 	odd
+					28			14			56				even 	even 	even
+					29			13			55				odd 	odd 	odd
+					30			12			54				even 	even 	even
+					31			11			53				odd 	odd 	odd
+					32			10			52				even 	even 	even
+					33			9			51				odd 	odd 	odd
+					34			8			50				even 	even 	even
+					35			7			49				odd 	odd 	odd
+					36			6			48				even 	even 	even
+					37			5			47				odd 	odd 	odd
+					38			4			46				even 	even 	even
+					39			3			45				odd 	odd 	odd
+					40			2			44				even 	even 	even
+					41			1			43				odd 	odd 	odd
+					42			0			42				even 	even 	even
+----------------------------------------------------------------------------------
+
+	43				0			43			86				even 	odd 	even
+					1			42			85				odd 	even 	odd
+					2			41			84				even 	odd 	even
+					3			40			83				odd 	even 	odd
+					4			39			82				even 	odd 	even
+					5			38			81				odd 	even 	odd
+					6			37			80				even 	odd 	even
+					7			36			79				odd 	even 	odd
+					8			35			78				even 	odd 	even
+					9			34			77				odd 	even 	odd
+					10			33			76				even 	odd 	even
+					11			32			75				odd 	even 	odd
+					12			31			74				even 	odd 	even
+					13			30			73				odd 	even 	odd
+					14			29			72				even 	odd 	even
+					15			28			71				odd 	even 	odd
+					16			27			70				even 	odd 	even
+					17			26			69				odd 	even 	odd
+					18			25			68				even 	odd 	even
+					19			24			67				odd 	even 	odd
+					20			23			66				even 	odd 	even
+					21			22			65				odd 	even 	odd
+					22			21			64				even 	odd 	even
+					23			20			63				odd 	even 	odd
+					24			19			62				even 	odd 	even
+					25			18			61				odd 	even 	odd
+					26			17			60				even 	odd 	even
+					27			16			59				odd 	even 	odd
+					28			15			58				even 	odd 	even
+					29			14			57				odd 	even 	odd
+					30			13			56				even 	odd 	even
+					31			12			55				odd 	even 	odd
+					32			11			54				even 	odd 	even
+					33			10			53				odd 	even 	odd
+					34			9			52				even 	odd 	even
+					35			8			51				odd 	even 	odd
+					36			7			50				even 	odd 	even
+					37			6			49				odd 	even 	odd
+					38			5			48				even 	odd 	even
+					39			4			47				odd 	even 	odd
+					40			3			46				even 	odd 	even
+					41			2			45				odd 	even 	odd
+					42			1			44				even 	odd 	even
+					43			0			43				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	44				0			44			88				even 	even 	even
+					1			43			87				odd 	odd 	odd
+					2			42			86				even 	even 	even
+					3			41			85				odd 	odd 	odd
+					4			40			84				even 	even 	even
+					5			39			83				odd 	odd 	odd
+					6			38			82				even 	even 	even
+					7			37			81				odd 	odd 	odd
+					8			36			80				even 	even 	even
+					9			35			79				odd 	odd 	odd
+					10			34			78				even 	even 	even
+					11			33			77				odd 	odd 	odd
+					12			32			76				even 	even 	even
+					13			31			75				odd 	odd 	odd
+					14			30			74				even 	even 	even
+					15			29			73				odd 	odd 	odd
+					16			28			72				even 	even 	even
+					17			27			71				odd 	odd 	odd
+					18			26			70				even 	even 	even
+					19			25			69				odd 	odd 	odd
+					20			24			68				even 	even 	even
+					21			23			67				odd 	odd 	odd
+					22			22			66				even 	even 	even
+					23			21			65				odd 	odd 	odd
+					24			20			64				even 	even 	even
+					25			19			63				odd 	odd 	odd
+					26			18			62				even 	even 	even
+					27			17			61				odd 	odd 	odd
+					28			16			60				even 	even 	even
+					29			15			59				odd 	odd 	odd
+					30			14			58				even 	even 	even
+					31			13			57				odd 	odd 	odd
+					32			12			56				even 	even 	even
+					33			11			55				odd 	odd 	odd
+					34			10			54				even 	even 	even
+					35			9			53				odd 	odd 	odd
+					36			8			52				even 	even 	even
+					37			7			51				odd 	odd 	odd
+					38			6			50				even 	even 	even
+					39			5			49				odd 	odd 	odd
+					40			4			48				even 	even 	even
+					41			3			47				odd 	odd 	odd
+					42			2			46				even 	even 	even
+					43			1			45				odd 	odd 	odd
+					44			0			44				even 	even 	even
+----------------------------------------------------------------------------------
+
+	45				0			45			90				even 	odd 	even
+					1			44			89				odd 	even 	odd
+					2			43			88				even 	odd 	even
+					3			42			87				odd 	even 	odd
+					4			41			86				even 	odd 	even
+					5			40			85				odd 	even 	odd
+					6			39			84				even 	odd 	even
+					7			38			83				odd 	even 	odd
+					8			37			82				even 	odd 	even
+					9			36			81				odd 	even 	odd
+					10			35			80				even 	odd 	even
+					11			34			79				odd 	even 	odd
+					12			33			78				even 	odd 	even
+					13			32			77				odd 	even 	odd
+					14			31			76				even 	odd 	even
+					15			30			75				odd 	even 	odd
+					16			29			74				even 	odd 	even
+					17			28			73				odd 	even 	odd
+					18			27			72				even 	odd 	even
+					19			26			71				odd 	even 	odd
+					20			25			70				even 	odd 	even
+					21			24			69				odd 	even 	odd
+					22			23			68				even 	odd 	even
+					23			22			67				odd 	even 	odd
+					24			21			66				even 	odd 	even
+					25			20			65				odd 	even 	odd
+					26			19			64				even 	odd 	even
+					27			18			63				odd 	even 	odd
+					28			17			62				even 	odd 	even
+					29			16			61				odd 	even 	odd
+					30			15			60				even 	odd 	even
+					31			14			59				odd 	even 	odd
+					32			13			58				even 	odd 	even
+					33			12			57				odd 	even 	odd
+					34			11			56				even 	odd 	even
+					35			10			55				odd 	even 	odd
+					36			9			54				even 	odd 	even
+					37			8			53				odd 	even 	odd
+					38			7			52				even 	odd 	even
+					39			6			51				odd 	even 	odd
+					40			5			50				even 	odd 	even
+					41			4			49				odd 	even 	odd
+					42			3			48				even 	odd 	even
+					43			2			47				odd 	even 	odd
+					44			1			46				even 	odd 	even
+					45			0			45				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	46				0			46			92				even 	even 	even
+					1			45			91				odd 	odd 	odd
+					2			44			90				even 	even 	even
+					3			43			89				odd 	odd 	odd
+					4			42			88				even 	even 	even
+					5			41			87				odd 	odd 	odd
+					6			40			86				even 	even 	even
+					7			39			85				odd 	odd 	odd
+					8			38			84				even 	even 	even
+					9			37			83				odd 	odd 	odd
+					10			36			82				even 	even 	even
+					11			35			81				odd 	odd 	odd
+					12			34			80				even 	even 	even
+					13			33			79				odd 	odd 	odd
+					14			32			78				even 	even 	even
+					15			31			77				odd 	odd 	odd
+					16			30			76				even 	even 	even
+					17			29			75				odd 	odd 	odd
+					18			28			74				even 	even 	even
+					19			27			73				odd 	odd 	odd
+					20			26			72				even 	even 	even
+					21			25			71				odd 	odd 	odd
+					22			24			70				even 	even 	even
+					23			23			69				odd 	odd 	odd
+					24			22			68				even 	even 	even
+					25			21			67				odd 	odd 	odd
+					26			20			66				even 	even 	even
+					27			19			65				odd 	odd 	odd
+					28			18			64				even 	even 	even
+					29			17			63				odd 	odd 	odd
+					30			16			62				even 	even 	even
+					31			15			61				odd 	odd 	odd
+					32			14			60				even 	even 	even
+					33			13			59				odd 	odd 	odd
+					34			12			58				even 	even 	even
+					35			11			57				odd 	odd 	odd
+					36			10			56				even 	even 	even
+					37			9			55				odd 	odd 	odd
+					38			8			54				even 	even 	even
+					39			7			53				odd 	odd 	odd
+					40			6			52				even 	even 	even
+					41			5			51				odd 	odd 	odd
+					42			4			50				even 	even 	even
+					43			3			49				odd 	odd 	odd
+					44			2			48				even 	even 	even
+					45			1			47				odd 	odd 	odd
+					46			0			46				even 	even 	even
+----------------------------------------------------------------------------------
+
+	47				0			47			94				even 	odd 	even
+					1			46			93				odd 	even 	odd
+					2			45			92				even 	odd 	even
+					3			44			91				odd 	even 	odd
+					4			43			90				even 	odd 	even
+					5			42			89				odd 	even 	odd
+					6			41			88				even 	odd 	even
+					7			40			87				odd 	even 	odd
+					8			39			86				even 	odd 	even
+					9			38			85				odd 	even 	odd
+					10			37			84				even 	odd 	even
+					11			36			83				odd 	even 	odd
+					12			35			82				even 	odd 	even
+					13			34			81				odd 	even 	odd
+					14			33			80				even 	odd 	even
+					15			32			79				odd 	even 	odd
+					16			31			78				even 	odd 	even
+					17			30			77				odd 	even 	odd
+					18			29			76				even 	odd 	even
+					19			28			75				odd 	even 	odd
+					20			27			74				even 	odd 	even
+					21			26			73				odd 	even 	odd
+					22			25			72				even 	odd 	even
+					23			24			71				odd 	even 	odd
+					24			23			70				even 	odd 	even
+					25			22			69				odd 	even 	odd
+					26			21			68				even 	odd 	even
+					27			20			67				odd 	even 	odd
+					28			19			66				even 	odd 	even
+					29			18			65				odd 	even 	odd
+					30			17			64				even 	odd 	even
+					31			16			63				odd 	even 	odd
+					32			15			62				even 	odd 	even
+					33			14			61				odd 	even 	odd
+					34			13			60				even 	odd 	even
+					35			12			59				odd 	even 	odd
+					36			11			58				even 	odd 	even
+					37			10			57				odd 	even 	odd
+					38			9			56				even 	odd 	even
+					39			8			55				odd 	even 	odd
+					40			7			54				even 	odd 	even
+					41			6			53				odd 	even 	odd
+					42			5			52				even 	odd 	even
+					43			4			51				odd 	even 	odd
+					44			3			50				even 	odd 	even
+					45			2			49				odd 	even 	odd
+					46			1			48				even 	odd 	even
+					47			0			47				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	48				0			48			96				even 	even 	even
+					1			47			95				odd 	odd 	odd
+					2			46			94				even 	even 	even
+					3			45			93				odd 	odd 	odd
+					4			44			92				even 	even 	even
+					5			43			91				odd 	odd 	odd
+					6			42			90				even 	even 	even
+					7			41			89				odd 	odd 	odd
+					8			40			88				even 	even 	even
+					9			39			87				odd 	odd 	odd
+					10			38			86				even 	even 	even
+					11			37			85				odd 	odd 	odd
+					12			36			84				even 	even 	even
+					13			35			83				odd 	odd 	odd
+					14			34			82				even 	even 	even
+					15			33			81				odd 	odd 	odd
+					16			32			80				even 	even 	even
+					17			31			79				odd 	odd 	odd
+					18			30			78				even 	even 	even
+					19			29			77				odd 	odd 	odd
+					20			28			76				even 	even 	even
+					21			27			75				odd 	odd 	odd
+					22			26			74				even 	even 	even
+					23			25			73				odd 	odd 	odd
+					24			24			72				even 	even 	even
+					25			23			71				odd 	odd 	odd
+					26			22			70				even 	even 	even
+					27			21			69				odd 	odd 	odd
+					28			20			68				even 	even 	even
+					29			19			67				odd 	odd 	odd
+					30			18			66				even 	even 	even
+					31			17			65				odd 	odd 	odd
+					32			16			64				even 	even 	even
+					33			15			63				odd 	odd 	odd
+					34			14			62				even 	even 	even
+					35			13			61				odd 	odd 	odd
+					36			12			60				even 	even 	even
+					37			11			59				odd 	odd 	odd
+					38			10			58				even 	even 	even
+					39			9			57				odd 	odd 	odd
+					40			8			56				even 	even 	even
+					41			7			55				odd 	odd 	odd
+					42			6			54				even 	even 	even
+					43			5			53				odd 	odd 	odd
+					44			4			52				even 	even 	even
+					45			3			51				odd 	odd 	odd
+					46			2			50				even 	even 	even
+					47			1			49				odd 	odd 	odd
+					48			0			48				even 	even 	even
+----------------------------------------------------------------------------------
+
+	49				0			49			98				even 	odd 	even
+					1			48			97				odd 	even 	odd
+					2			47			96				even 	odd 	even
+					3			46			95				odd 	even 	odd
+					4			45			94				even 	odd 	even
+					5			44			93				odd 	even 	odd
+					6			43			92				even 	odd 	even
+					7			42			91				odd 	even 	odd
+					8			41			90				even 	odd 	even
+					9			40			89				odd 	even 	odd
+					10			39			88				even 	odd 	even
+					11			38			87				odd 	even 	odd
+					12			37			86				even 	odd 	even
+					13			36			85				odd 	even 	odd
+					14			35			84				even 	odd 	even
+					15			34			83				odd 	even 	odd
+					16			33			82				even 	odd 	even
+					17			32			81				odd 	even 	odd
+					18			31			80				even 	odd 	even
+					19			30			79				odd 	even 	odd
+					20			29			78				even 	odd 	even
+					21			28			77				odd 	even 	odd
+					22			27			76				even 	odd 	even
+					23			26			75				odd 	even 	odd
+					24			25			74				even 	odd 	even
+					25			24			73				odd 	even 	odd
+					26			23			72				even 	odd 	even
+					27			22			71				odd 	even 	odd
+					28			21			70				even 	odd 	even
+					29			20			69				odd 	even 	odd
+					30			19			68				even 	odd 	even
+					31			18			67				odd 	even 	odd
+					32			17			66				even 	odd 	even
+					33			16			65				odd 	even 	odd
+					34			15			64				even 	odd 	even
+					35			14			63				odd 	even 	odd
+					36			13			62				even 	odd 	even
+					37			12			61				odd 	even 	odd
+					38			11			60				even 	odd 	even
+					39			10			59				odd 	even 	odd
+					40			9			58				even 	odd 	even
+					41			8			57				odd 	even 	odd
+					42			7			56				even 	odd 	even
+					43			6			55				odd 	even 	odd
+					44			5			54				even 	odd 	even
+					45			4			53				odd 	even 	odd
+					46			3			52				even 	odd 	even
+					47			2			51				odd 	even 	odd
+					48			1			50				even 	odd 	even
+					49			0			49				odd 	even 	odd
+----------------------------------------------------------------------------------
+
+	50				0			50			100				even 	even 	even
+					1			49			99				odd 	odd 	odd
+					2			48			98				even 	even 	even
+					3			47			97				odd 	odd 	odd
+					4			46			96				even 	even 	even
+					5			45			95				odd 	odd 	odd
+					6			44			94				even 	even 	even
+					7			43			93				odd 	odd 	odd
+					8			42			92				even 	even 	even
+					9			41			91				odd 	odd 	odd
+					10			40			90				even 	even 	even
+					11			39			89				odd 	odd 	odd
+					12			38			88				even 	even 	even
+					13			37			87				odd 	odd 	odd
+					14			36			86				even 	even 	even
+					15			35			85				odd 	odd 	odd
+					16			34			84				even 	even 	even
+					17			33			83				odd 	odd 	odd
+					18			32			82				even 	even 	even
+					19			31			81				odd 	odd 	odd
+					20			30			80				even 	even 	even
+					21			29			79				odd 	odd 	odd
+					22			28			78				even 	even 	even
+					23			27			77				odd 	odd 	odd
+					24			26			76				even 	even 	even
+					25			25			75				odd 	odd 	odd
+					26			24			74				even 	even 	even
+					27			23			73				odd 	odd 	odd
+					28			22			72				even 	even 	even
+					29			21			71				odd 	odd 	odd
+					30			20			70				even 	even 	even
+					31			19			69				odd 	odd 	odd
+					32			18			68				even 	even 	even
+					33			17			67				odd 	odd 	odd
+					34			16			66				even 	even 	even
+					35			15			65				odd 	odd 	odd
+					36			14			64				even 	even 	even
+					37			13			63				odd 	odd 	odd
+					38			12			62				even 	even 	even
+					39			11			61				odd 	odd 	odd
+					40			10			60				even 	even 	even
+					41			9			59				odd 	odd 	odd
+					42			8			58				even 	even 	even
+					43			7			57				odd 	odd 	odd
+					44			6			56				even 	even 	even
+					45			5			55				odd 	odd 	odd
+					46			4			54				even 	even 	even
+					47			3			53				odd 	odd 	odd
+					48			2			52				even 	even 	even
+					49			1			51				odd 	odd 	odd
+					50			0			50				even 	even 	even
+----------------------------------------------------------------------------------
