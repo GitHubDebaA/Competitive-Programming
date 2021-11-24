@@ -22,9 +22,19 @@ class Main {
 				if(scan.hasNextInt()) A[i] = scan.nextInt();
 			}
 
-			System.out.println(MAKEEQUAL(n, A));
+			System.out.println(MAKEEQUAL2(n, A));
 			t -= 1;
 		}
+	}
+
+	//Efficient Solution
+	public static int MAKEEQUAL2(int n, int A[]) {
+		if(A.length <= 1) return 0;
+
+		Arrays.sort(A);
+		int max = A[A.length - 1], min = A[0];
+		if(max == min) return 0;
+		else return max - min;
 	}
 
 	public static int MAKEEQUAL(int n, int A[]) {
