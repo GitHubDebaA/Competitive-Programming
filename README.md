@@ -1,6 +1,6 @@
 # Competitive-Programming-codechef
-All of my `Codechef Rated Contest Problems`  
-`Here(https://www.codechef.com/users/deba_98) is My Codechef Profile`  
+All of my `Codechef Rated Contest Problems.`  
+Here is My [`Codechef Profile`](https://www.codechef.com/users/deba_98).  
 
 # November Long Challenge
 ## Total Score : +81 | Problem Solve 4/10
