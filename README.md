@@ -4,7 +4,7 @@
 >I'm doing CP from last 2 years. All of my `Codechef Rated Contest Problems` are here.  
 >I'm actively doing CP in `Codechef`, `Leetcode`, `Hackerrank`.  
 >Here is My [`Codechef Profile`](https://www.codechef.com/users/deba_98) `**(1583)`.  
->You can find my other repo here...  
+>You can find my other CP's repo here...  
 >[Leetcode]()  
 >[Hackerrank]()  
 
