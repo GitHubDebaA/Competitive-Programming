@@ -11,8 +11,8 @@ all of my competitive programming
 
 # Codechef Starters 18
 ## Total Score +38 | Problem Solve 3/7
-   Back to Campus (accepted) 
-   Make them Equal (accepted) 
-   Compare those string (accepted/practice)
-   Palindrome Binary Number (accepted) 
+   Back to Campus (accepted)  
+   Make them Equal (accepted)   
+   Compare those string (accepted/practice)  
+   Palindrome Binary Number (accepted)  
    
