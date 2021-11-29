@@ -10,9 +10,16 @@
 >Contact me: [`mail`](to.debasisdas.cu@gmail.com) [`LinkedIn`](https://www.linkedin.com/in/debasis-das-0a05021a4/)
 >  
 
+## Codechef Fizz Buzz 2021
+### Total Score: -7 | Problem Solve 3/7
+   [`Can You Eat It`](https://www.codechef.com/FZBZ21C/problems/COMPCAND) (accepted)  
+   [`Can Reach`](https://www.codechef.com/FZBZ21C/problems/CAN_REACH) (accepted)  
+   [`Magical Planks`](https://www.codechef.com/FZBZ21C/problems/MKGPLNKS) (accepted)  
+   [`Clean The Sequence`](https://www.codechef.com/FZBZ21C/problems/CLESEQ) (TLE)  
+
 ## Codechef Starters 18
 ### Total Score: +38 | Problem Solve 3/6
-   [`Back to Campus`](https://www.codechef.com/START18C/problems/MINDAYSRET) (accepted).  
+   [`Back to Campus`](https://www.codechef.com/START18C/problems/MINDAYSRET) (accepted)  
    [`Make them Equal`](https://www.codechef.com/START18C/problems/MAKEEQUAL) (accepted)   
    [`Compare those string`](https://www.codechef.com/START18C/problems/MAKEEQUAL) (accepted/practice)  
    [`Palindrome Binary Number`](https://www.codechef.com/START18C/problems/PALSUM) (accepted)  
